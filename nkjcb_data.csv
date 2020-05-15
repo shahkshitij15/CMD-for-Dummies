@@ -1,0 +1,88 @@
+id,tokens,slots,intent
+0,create a directory on the desktop,o o o o o dirloc,mkdir
+0,create a folder on the desktop,o o o o o dirloc,mkdir
+1,create a directory,o o o,mkdir
+1,create a folder,o o o,mkdir
+2,create a folder,o o o,mkdir
+2,create a directory,o o o,mkdir
+3,make a folder,o o o,mkdir
+3,make a directory,o o o,mkdir
+4,create a folder named abc at dekstop/tp,o o o o dirname o dirloc,mkdir
+4,create a directory named abc at dekstop/tp,o o o o dirname o dirloc,mkdir
+5,create a folder at dekstop/tp,o o o o dirloc,mkdir
+5,create a directory at dekstop/tp,o o o o dirloc,mkdir
+6,create a folder on dekstop/tp,o o o o dirloc,mkdir
+6,create a directory on dekstop/tp,o o o o dirloc,mkdir
+7,create a folder named xyz at dekstop,o o o o dirname o dirloc,mkdir
+7,create a directory named xyz at dekstop,o o o o dirname o dirloc,mkdir
+8,create a folder named xyz,o o o o dirname,mkdir
+8,create a directory named xyz,o o o o dirname,mkdir
+9,create a folder xyz,o o o dirname,mkdir
+9,create a directory xyz,o o o dirname,mkdir
+10,create a directory xyz,o o o dirname,mkdir
+10,create a folder xyz,o o o dirname,mkdir
+11,i want a folder named xyz123 at location desktop/tp,o o o o o dirname o o dirloc,mkdir
+11,i want a directory named xyz123 at location desktop/tp,o o o o o dirname o o dirloc,mkdir
+12,move to abc123 directory,o o dirname o,cd
+12,move to abc123 folder,o o dirname o,cd
+13,go to abc123 directory,o o dirname o,cd
+13,go to abc123 folder,o o dirname o,cd
+14,open desktop/tp,o dirname,cd
+15,move to abc folder,o o dirname o,cd
+15,move to abc directory,o o dirname o,cd
+16,move to abc123,o o dirname,cd
+17,move to desktop,o o dirname,cd
+18,list files,o o,ls
+19,list all the files in this folder,o o o o o o o,ls
+19,list all the files in this directory,o o o o o o o,ls
+20,list all the files in this directory,o o o o o o o,ls
+20,list all the files in this folder,o o o o o o o,ls
+21,list all files on the desktop/tp,o o o o o dirname,ls
+22,show me all the folders,o o o o o,ls
+23,show me all folders in data,o o o o o dirname,ls
+24,show me all folders in data/tp,o o o o o dirname,ls
+25,show me all files in data/tp,o o o o o dirname,ls
+26,show me all files in test2,o o o o o dirname,ls
+27,show all the folders on desktop/tp,o o o o o dirname,ls
+28,list all files and folder on desktop/tp,o o o o o o dirname,ls
+28,list all files and directory on desktop/tp,o o o o o o dirname,ls
+29,list all files on desktop/tp,o o o o dirname,ls
+30,show all files on desktop/tp,o o o o dirname,ls
+31,go to abc folder,o o dirname o,cd
+31,go to abc directory,o o dirname o,cd
+32,create a file named abc.txt,o o o o filname,touch
+33,create a file named abc.txt on the desktop,o o o o filname o o dirloc,touch
+34,i want a new file,o o o o o,touch
+35,i want a new file named txt.txt,o o o o o o filname,touch
+36,i want a new file named txt.txt on desktop/tp,o o o o o o filname o dirloc,touch
+37,create a document,o o o,touch
+38,show me how to use abc,o o o o o comname,man
+39,show me the usage of abc,o o o o o comname,man
+40,show me the usage of ls,o o o o o comname,man
+41,show me the usage of rmdir,o o o o o comname,man
+42,show me the usage of man,o o o o o comname,man
+43,how do i use ls,o o o o comname,man
+44,i want to understand the usage of ls,o o o o o o o comname,man
+45,how is ls used,o o comname o,man
+46,documentation of ls,o o comname,man
+47,delete the folder named abc,o o o o dirname,rmdir
+47,delete the directory named abc,o o o o dirname,rmdir
+48,delete the folder named abc on desktop,o o o o dirname o dirloc,rmdir
+48,delete the directory named abc on desktop,o o o o dirname o dirloc,rmdir
+49,delete the folder,o o o,rmdir
+49,delete the directory,o o o,rmdir
+50,i want to delete the folder named abc,o o o o o o o dirname,rmdir
+50,i want to delete the directory named abc,o o o o o o o dirname,rmdir
+51,i want to delete a folder,o o o o o o,rmdir
+51,i want to delete a directory,o o o o o o,rmdir
+52,i want to delete the folder named abc on desktop,o o o o o o o dirname o dirloc,rmdir
+52,i want to delete the directory named abc on desktop,o o o o o o o dirname o dirloc,rmdir
+53,remove a folder,o o o,rmdir
+53,remove a directory,o o o,rmdir
+54,remove a folder from desktop/tp,o o o o dirloc,rmdir
+54,remove a directory from desktop/tp,o o o o dirloc,rmdir
+55,go back one level,o o o o,cdback
+56,go to the previous folder,o o o o o,cdback
+56,go to the previous directory,o o o o o,cdback
+57,go back,o o,cdback
+58,move back,o o,cdback
